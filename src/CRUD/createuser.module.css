@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(107, 207, 144);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav>a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#myForm{
+    min-height: 100vh;
+    width: 100%;
+    background-color: rgb(143, 248, 176);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 30px;
+
+}
+form:hover{
+transform: scale(1);
+/* background-color: black; */
+
+}
+form{
+    /* border: 3px solid white; */
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+ input{
+    height: 35px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ }
+ input:focus{
+    background-color: rgb(58, 187, 125);
+ }
+
+/* button{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgb(88, 186, 138);
+    color: black;
+} */
+
+
+
+/* CSS */
+button {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 15px;
+}
+
+button:hover {
+  box-shadow: rgba(21, 54, 33, 0.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}

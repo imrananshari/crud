@@ -1,0 +1,16 @@
+{
+    "employees": [
+      {
+        "empName": "raja",
+        "empSalary": "12000",
+        "empCompany": " tcs",
+        "id": 2
+      },
+      {
+        "empName": "simran",
+        "empSalary": "50000",
+        "empCompany": " wipro",
+        "id": 4
+      }
+    ]
+  }
